@@ -1,0 +1,22 @@
+#Virtual Environment can be generated and downloaded, see Installation.md
+VZE_VirtualEnv
+VZE_VirtualEnv_GPU
+
+#PyCharm IDE Settings, manual configuration in Installation.md
+.idea
+
+#Temporary File for Installation can be downloaded, see Installation.md
+opencv_python-3.3.1-cp36-cp36m-win_amd64.whl
+
+#Compilation Data can be generated on build, see Readme.md
+VZE/build
+__pycache__
+
+#Test und Training Data etc
+VZE/tf_files/
+
+#Generated User Output Data
+VZE/cropouts
+
+#Other
+desktop.ini
