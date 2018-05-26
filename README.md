@@ -15,9 +15,9 @@ Die Studienarbeit inklusive der praktischen Implementierung wurde veröffentlich
 Es gibt zwei Möglichkeiten zur Installation:
 - Projekt anhand des Python Sourcecodes selbst kompilieren
 - Lauffähiges Programm herunterladen und starten 
-	- build-Ordner komplett herunterladenen
-	- den für das Betriebssystem passende Ordner öffnen
-	- ausführbare Datei `start_vze` mit einem Doppelklick öfffnen
+	1) build-Ordner komplett herunterladenen
+	2) den für das Betriebssystem passende Ordner öffnen
+	3) ausführbare Datei `start_vze` mit einem Doppelklick öfffnen
 
 ## Einrichten der Entwicklungsumgebung
 Da es sich bei dem Quelltext um Skripte der Skriptsprache Python 3.6.3 handelt, kann das Programm auf verschiedenen Betriebssystemen gestartet werden.
