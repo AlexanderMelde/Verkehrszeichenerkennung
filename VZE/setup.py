@@ -25,7 +25,10 @@ options = {
         'include_files':[
             os.path.join(PYTHON_INSTALL_DIR, 'DLLs', 'tk86t.dll'),
             os.path.join(PYTHON_INSTALL_DIR, 'DLLs', 'tcl86t.dll'),
-			('tf_files/', 'lib/tf_files/')
+			('tf_files/', 'lib/tf_files/'),
+            (os.path.join(os.getcwd(), '..', 'LICENSE.txt'), 'LICENSE.txt'),
+            (os.path.join(os.getcwd(), '..', 'NOTICE.txt'), 'NOTICE.txt'),
+            (os.path.join(os.getcwd(), '..', 'README.md'), 'README.md')
          ],
 		 'packages' : [],
 		 'excludes' : []
