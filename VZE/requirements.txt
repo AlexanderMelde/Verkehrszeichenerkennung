@@ -1,0 +1,10 @@
+appJar==0.82.1
+cx-Freeze==5.1.1
+numpy==1.14.2
+opencv-contrib-python==3.4.2.16
+opencv-python==3.4.0.14
+tensorflow==1.4.0
+wheel
+pip
+setuptools
+virtualenv
