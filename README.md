@@ -39,6 +39,8 @@ Wurde die virtualenv eingerichtet können alle weiteren Module innerhalb der Env
 Das Modul cx-Freeze wird lediglich zum Erstellen von ausführbaren Dateien benötigt, eine Installation ist also nur notwendig, wenn der Python Code später ohne Interpreter ausgeführt können werden soll.
 Für die Darstellung der GUI wird in der nicht-kompilierten Version zudem das GUI-Framework Tk benötigt. Dieses wird bei den meisten Python-Installationen bereits als Tkinter mitgeliefert. Sollte Tk noch nicht vorhanden sein, kann [diese Anleitung](http://www.tkdocs.com/tutorial/install.html) genutzt werden.
 
+Nach der Installation von Python 3.6 könnnen die benötigten Pakete installiert werden mit ``pip install -r requirements.txt`` (im Ordner ``VZE``).
+
 ##	Ausführung
 Vor der ersten Ausführung des Programms zur Verkehrszeichenerkennung muss, nachdem die Entwicklungsumgebung wie im vorherigen Abschnitt beschrieben, eingerichtet wurde, das neuronale Netz für die Klassifikation trainiert werden. Dies geschieht mit dem folgenden Befehl:
 
